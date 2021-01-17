@@ -12,14 +12,14 @@ Our sweet, modular interface builder and data-driven dashboard puts power in the
 
 <br />
 
-## Customize Your Environment
+## 🔧 Customize Your Environment
 ![bento box building demo](assets/bento-build.gif)
 
 Organize like you would your classroom.
 Take control of our powerful module system to build the perfect user interface.
 <br />
 <br />
-## Analyze The Metrics
+## 📈 Analyze The Metrics
 ![bento box dashboard demo](assets/bento-dash.gif)
 Catch all the metrics.
 From polls to *everything* that happened during the session, you can measure student engagement, whether to gauge your teaching style, trace inappropriate conduct, or gather results.
