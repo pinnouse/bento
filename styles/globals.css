@@ -1,0 +1,30 @@
+html,
+body {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+.button {
+  @apply px-6;
+  @apply py-2;
+  @apply bg-white;
+  @apply text-black;
+  @apply shadow-md;
+  @apply rounded-full;
+  @apply text-center;
+  @apply mx-3;
+  @apply transition;
+  @apply duration-300;
+}
+
+.button.primary {
+  @apply bg-indigo-400;
+  @apply text-white;
+}
+
+.button:hover {
+  @apply bg-gray-100;
+}
+
+.button.primary:hover {
+  @apply bg-indigo-500;
+}

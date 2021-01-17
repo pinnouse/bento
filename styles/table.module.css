@@ -1,0 +1,42 @@
+.table {
+    @apply min-w-full;
+    @apply mt-6;
+    @apply overflow-y-auto;
+    @apply shadow-sm;
+}
+
+.table > thead > tr,
+.table > tbody > tr {
+    @apply border-2;
+    @apply border-gray-100;
+}
+
+.table > thead > tr > th {
+    @apply font-normal;
+    @apply text-2xl;
+    @apply p-4;
+}
+
+.table > tbody > tr:nth-child(2n) {
+    @apply bg-indigo-100;
+    @apply bg-opacity-25;
+}
+
+.table > tbody > tr {
+    @apply bg-indigo-50;
+    @apply bg-opacity-25;
+    @apply transition;
+    @apply duration-300;
+    @apply select-all;
+}
+
+.table > tbody > tr:hover {
+    @apply bg-indigo-200;
+    @apply bg-opacity-100;
+}
+
+.table > tbody > tr > td {
+    @apply p-2;
+    @apply px-4;
+}
+
